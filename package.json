@@ -1,0 +1,27 @@
+{
+  "name": "vite-plugin-dist-zip",
+  "private": false,
+  "version": "0.0.1",
+  "main": "./dist/dist.umd.js",
+  "module": "./dist/dist.es.js",
+  "types": "types/lib/index.d.ts",
+  "scripts": {
+    "build": "vite build"
+  },
+  "peerDependencies": {
+    "dayjs": "^1.10.7",
+    "vite": "^2.5.10",
+    "jszip": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "typescript": "^4.5.4",
+    "vue-tsc": "^0.29.8"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/dist.es.js",
+      "require": "./dist/dist.umd.js"
+    }
+  }
+}

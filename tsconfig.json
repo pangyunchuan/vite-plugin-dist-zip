@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "jsx": "preserve",
+    "declaration": true,
+    "declarationDir": "./types",
+    "sourceMap": false,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "rootDir": ".",
+    "baseUrl": "."
+  },
+  "include": ["lib/**/*.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
