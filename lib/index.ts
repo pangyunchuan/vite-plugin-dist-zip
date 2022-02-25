@@ -28,7 +28,7 @@ export default function (
         closeBundle() {
             const distDir = path.resolve(viteConfig.root, viteConfig.build.outDir);
             const zipFullName = `${zipName}_${nowDateTime.format(dayjsFormat)}.zip`;
-            const trueZipDir = path.resolve(viteConfig.root, zipDir) || distDir
+            const trueZipDir = zipDir ? path.resolve(viteConfig.root, zipDir) : distDir;
 
             const zip = new JSZip();
 
