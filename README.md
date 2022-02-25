@@ -10,6 +10,7 @@ npm install vite-plugin-dist-zip -D
 ```text
 在vite 打包后,将打包文件压缩为zip
 只在构建时中使用
+使用了 configResolved 钩子
 ```
 
 ## 配置

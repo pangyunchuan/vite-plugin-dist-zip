@@ -1,10 +1,23 @@
 {
   "name": "vite-plugin-dist-zip",
-  "private": false,
   "version": "0.0.1",
+  "author": "pangyunchuan",
+  "license": "MIT",
   "main": "./dist/dist.umd.js",
   "module": "./dist/dist.es.js",
   "types": "types/lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pangyunchuan/vite-plugin-dist-zip"
+  },
+  "description": "用于在打包后将打包文件压缩为zip文件",
+  "keywords": [
+    "zip",
+    "vite-plugin",
+    "vite"
+  ],
+  "files": [],
+  "bin": {},
   "scripts": {
     "build": "vite build"
   },
