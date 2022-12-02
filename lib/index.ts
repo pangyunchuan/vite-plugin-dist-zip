@@ -1,10 +1,10 @@
 import JSZip from "jszip";
-import {Plugin, ResolvedConfig} from "vite";
+import type {Plugin, ResolvedConfig} from "vite";
 
-const fs = require('fs')
-const path = require('path')
+import fs from 'fs';
+import path from 'path';
 
-const dayjs = require("dayjs");
+import dayjs from 'dayjs';
 const nowDateTime = dayjs();
 
 /**
@@ -52,7 +52,7 @@ export default function (
                 });
             }
 
-            let folder = null;
+            let folder: JSZip | null = null;
             if (includeDistDir) {
                 folder = zip.folder(path.basename(distDir))
             }

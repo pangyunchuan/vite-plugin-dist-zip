@@ -6,6 +6,7 @@
   "main": "./dist/dist.umd.js",
   "module": "./dist/dist.es.js",
   "types": "types/lib/index.d.ts",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pangyunchuan/vite-plugin-dist-zip"
