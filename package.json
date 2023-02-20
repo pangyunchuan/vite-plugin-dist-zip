@@ -1,12 +1,11 @@
 {
   "name": "vite-plugin-dist-zip",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "author": "pangyunchuan",
   "license": "MIT",
   "main": "./dist/dist.umd.js",
   "module": "./dist/dist.es.js",
   "types": "types/lib/index.d.ts",
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pangyunchuan/vite-plugin-dist-zip"

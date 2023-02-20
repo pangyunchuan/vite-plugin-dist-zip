@@ -1,10 +1,10 @@
 import JSZip from "jszip";
+import dayjs from 'dayjs';
 import type {Plugin, ResolvedConfig} from "vite";
 
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs')
+const path = require('path')
 
-import dayjs from 'dayjs';
 const nowDateTime = dayjs();
 
 /**
